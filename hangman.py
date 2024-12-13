@@ -17,6 +17,7 @@ def create_hangman(wrong_guesses):
     ["head", "neck"],
     ["head"]
   ]
+  
   return hangman_parts[wrong_guesses]
 def play_hangman():
   """
